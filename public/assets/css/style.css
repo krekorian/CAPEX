@@ -1,0 +1,459 @@
+body {
+    background-color: #FBFCFD;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sidenav {
+    padding-bottom: 1000px;
+    width: 195px;
+    background-color: #fff;
+    border-right-style: solid;
+    border-right-color: #E5E5E5;
+    border-right-width: 1px;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #9E9E9E;
+    font-size: 12px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: #000000;
+    padding-top: 11px;
+    padding-left: 5px;
+    padding-right: 50px;
+}
+
+.img-circle {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#userName {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+#settingsNav {
+    margin-bottom: 10px;
+}
+
+.row.tabsOne:hover, .row.tabsOne:visited, .row.tabs:hover, .row.tabs:visited {
+    background-color: #E3F2FD;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.row.tabsOne {
+    margin-top: -10px;
+}
+
+.fas {
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+.fas:hover, .fas:visited, p:hover, p:visited {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+#lineTwo {
+    margin-top: -1px;
+}
+
+#content {
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 30px;
+}
+
+.navigation {
+    position: relative;
+}
+
+.card {
+    width: 600px;
+}
+
+.approvedTable {
+    width: 1050px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.cardRow2 {
+    margin-left: 650px;
+    width: 400px;
+}
+
+.section2 {
+    margin-top: -253px;
+}
+
+.approversCard {
+    margin-top: 40px;
+}
+
+.card-head {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.table.no-border tr td, .table.no-border tr th {
+    border-width: 0;
+}
+
+.sectionHead {
+    color: #6A6666;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.output {
+    color: #9E9E9E;
+    font-size: 13px;
+}
+
+.category {
+    color: #6A6666;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.secondTable {
+    margin-top: 30px;
+}
+
+.approver-location {
+    padding-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Month header */
+
+.month {
+    width: 100%;
+    background: #fff;
+    text-align: center;
+}
+
+#monthFont {
+    color: #000000;
+}
+
+/* Month list */
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: #000000;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Previous button inside month header */
+
+.month .prev {
+    float: left;
+    /* padding-top: 10px; */
+}
+
+/* Next button */
+
+.month .next {
+    float: right;
+    /* padding-top: 10px; */
+}
+
+/* Weekdays (Mon-Sun) */
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+
+.days {
+    padding: 10px 0;
+    background: #fff;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #777;
+}
+
+/* Highlight the "current" day */
+
+.days li .active {
+    border-radius: 50px;
+    /* width: 60px;
+    height: 60px; */
+    padding: 5px;
+    background: #2196F3;
+    color: white !important
+}
+
+.btn-primary {
+    background-color: #2196F3;
+    border-style: none;
+}
+
+.form-check {
+    margin-right: 80px;
+}
+
+.form-check-purchase, .form-check-lease, .form-check-contract {
+    margin-right: 15px;
+}
+
+h5 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+h6 {
+    margin-top: 30px;
+}
+
+.exception {
+    margin-top: 5px;
+}
+
+.add-item {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: #000000;
+    padding-top: 11px;
+    padding-left: 5px;
+    padding-right: 50px;
+}
+
+.add-item:hover {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.finalForm {
+    margin-bottom: 80px;
+}
+
+.switch {
+    margin-left: 20px;
+}
+
+/* The switch - the box around the slider */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 28px;
+}
+
+/* Hide default HTML checkbox */
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
+}
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+#loginSection {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.loginTitle {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.login {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.signup {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.login-help {
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 12px;
+}
+
+.submitButton {
+    position: absolute;
+    bottom: 45px;
+    z-index: 1;
+    left: 890px;
+    font-size: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2196F3;
+}
+
+.approveButton {
+    position: absolute;
+    bottom: 45px;
+    z-index: 1;
+    left: 880px;
+    font-size: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2196F3;
+}
+
+.denyButton {
+    position: absolute;
+    bottom: 45px;
+    z-index: 1;
+    left: 710px;
+    font-size: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #B90808;
+}
+
+.denyButton:hover {
+    background-color: #DE1F1F;
+}
+
+.reviewButton:hover, .submitButton:hover, .submitButton:hover, .approveButton:hover {
+    background-color: #60B7FD;
+}
+
+.card-body {
+    z-index: 0;
+}
+
+.denyCard {
+    width: 1100px;
+}
+
+.denyForm {
+    margin-bottom: 80px;
+}
+
+.formDeny {
+    left: 955px;
+    bottom: 30px;
+}
+
+.password-form {
+    margin-bottom: 40px;
+}
+
+.approved-table {
+    margin-top: 200px;
+}
