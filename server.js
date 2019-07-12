@@ -7,7 +7,7 @@ var env = require('dotenv').config();
 var exphbs = require('express-handlebars');
 var flash = require('connect-flash');
 const path = require('path');
-
+var mysql = require("mysql");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
